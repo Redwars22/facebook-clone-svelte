@@ -1,4 +1,6 @@
 <script>
+  import ProfileTabNav from "./ProfileTabNav.svelte";
+  
   export let profileCoverURL;
   export let name;
   export let numberOfFriends;
@@ -33,6 +35,7 @@
       </button>
     </div>
   </div>
+  <ProfileTabNav/>
 </div>
 
 <style>
