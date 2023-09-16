@@ -84,7 +84,6 @@
     color: white;
     justify-content: space-between;
     align-items: flex-end;
-    border-bottom: 1px solid #3a3b3c;
   }
 
   button {

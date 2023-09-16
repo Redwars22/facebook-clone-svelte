@@ -12,7 +12,27 @@
 
 <div>
   <ProfileHeader {...mockData}/>
+  <a class="send-message-button" href="">
+    <i class="bi bi-pencil-square"/>
+  </a>
 </div>
 
 <style>
+  .send-message-button {
+    width: 48px;
+    height: 48px;
+    background-color: #3a3b3c;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .send-message-button > i {
+    font-size: 1.5rem;
+    color: #B0B3B8;
+  }
 </style>
