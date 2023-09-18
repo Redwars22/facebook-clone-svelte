@@ -36,6 +36,7 @@
     padding: 0px 15px 0px 10px;
     align-items: center;
     border-bottom: 1px solid #3a3b3c;
+    position: fixed;
   }
 
   .fb-menu-container, .fb-right-menu-container {
