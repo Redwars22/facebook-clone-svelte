@@ -1,11 +1,13 @@
 <script>
   import InfoArea from './InfoArea.svelte'
+  import FriendsArea from './FriendsArea.svelte'
+  import PhotosArea from './PhotosArea.svelte'
 
   export let profile = {
       friends: [],
       pictures: [],
       info: {
-        bio: "",
+        bio: "Lorem ipsum dolor sit amet",
         birthplace: "República do Biverso",
         location: "Regente do Sul",
         fiancee: "",
@@ -21,6 +23,8 @@
 <div class="profile-main-page">
   <div>
     <InfoArea {...profile.info}/>
+    <PhotosArea/>
+    <FriendsArea/>
   </div>
   <div></div>
 </div>

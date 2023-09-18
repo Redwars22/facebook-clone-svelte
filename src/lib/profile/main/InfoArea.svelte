@@ -13,7 +13,6 @@
 <div class="info-area-container">
   <h3>Apresentação</h3>
   <p>{bio}</p>
-  <hr/>
   <div class="info-list">
     <InfoAreaData icon="briefcase-fill" data="Trabalhou na empresa" dataInBold="{workplace}"/>
     <InfoAreaData icon="mortarboard-fill" data="Frequentou" dataInBold="{workplace}"/>
@@ -32,7 +31,7 @@
     flex-direction: column;
     background-color: #242526;
     padding: 5px 10px 5px 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 15px;
   }
 
@@ -44,10 +43,8 @@
 
   p {
     color: #cac6cb;
-  }
-
-  hr {
-    border-color: #3a3b3c;
-    color: #3a3b3c;
+    border-bottom: 1px solid #3a3b3c;
+    width: 100%;
+    padding-bottom: 10px;
   }
 </style>
