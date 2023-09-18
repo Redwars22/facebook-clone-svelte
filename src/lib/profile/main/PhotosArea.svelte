@@ -18,6 +18,13 @@
     margin: 15px;
   }
 
+  .photos-area-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
   span {
     color: #3f84d7;
   }
