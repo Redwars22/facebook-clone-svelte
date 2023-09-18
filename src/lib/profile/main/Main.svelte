@@ -6,8 +6,8 @@
       pictures: [],
       info: {
         bio: "",
-        birthplace: "",
-        location: "",
+        birthplace: "República do Biverso",
+        location: "Regente do Sul",
         fiancee: "",
         workplace: "",
         member_since: "Setembro de 2023",

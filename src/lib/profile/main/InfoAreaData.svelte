@@ -4,10 +4,12 @@
   export let dataInBold;
 </script>
 
-<div>
+<div class="container">
   <i class="bi bi-{icon}"></i>
-  <span>{data}</span>
-  <strong>{dataInBold}</strong>
+  <div>
+    <span>{data}</span>
+    {#if dataInBold}<strong>{dataInBold}</strong>{/if}
+  </div>
 </div>
 
 <style>
@@ -16,10 +18,13 @@
     font-size: 1.5rem;
   }
 
-  div {
+  .container {
     color: #cac6cb;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   span, strong {
