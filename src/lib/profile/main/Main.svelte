@@ -1,11 +1,20 @@
 <script>
   import InfoArea from './InfoArea.svelte'
+
+  export let profile = {
+      friends: [],
+      pictures: [],
+      info: {
+        bio: ""
+      },
+      posts: []
+    };
 </script>
 
 <div style="background-color: #18191a">
 <div class="profile-main-page">
   <div>
-    <InfoArea/>
+    <InfoArea {...profile.info}/>
   </div>
   <div></div>
 </div>

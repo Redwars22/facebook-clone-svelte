@@ -8,16 +8,20 @@
     numberOfFollowers: 145,
     profileCoverURL: "https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/0/0921cb27d5604b464218a64ae88a3f43c7b7371a_2_690x345.png",
     profileURL: "https://github.com/Redwars22.png",
-    friends: [],
-    pictures: [],
-    info: [],
-    posts: []
+    profile: {
+      friends: [],
+      pictures: [],
+      info: {
+        bio: "Busque a sua felicidade hoje, amanha e sempre!"
+      },
+      posts: []
+    }
   }
 </script>
 
 <div>
   <ProfileHeader {...mockData}/>
-  <Main/>
+  <Main {...mockData.profile}/>
   <a class="send-message-button" href="">
     <i class="bi bi-pencil-square"/>
   </a>
