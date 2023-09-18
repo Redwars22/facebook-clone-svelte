@@ -22,7 +22,7 @@
 <div>
   <ProfileHeader {...mockData}/>
   <Main {...mockData.profile}/>
-  <a class="send-message-button" href="">
+  <a class="send-message-button" href="/">
     <i class="bi bi-pencil-square"/>
   </a>
 </div>
