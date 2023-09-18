@@ -18,6 +18,8 @@
 
   div {
     color: #cac6cb;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   span, strong {

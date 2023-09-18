@@ -5,7 +5,13 @@
       friends: [],
       pictures: [],
       info: {
-        bio: ""
+        bio: "",
+        birthplace: "",
+        location: "",
+        fiancee: "",
+        workplace: "",
+        member_since: "Setembro de 2023",
+        relationship_status: "Em um relacionamento aberto"
       },
       posts: []
     };
