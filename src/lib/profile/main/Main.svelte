@@ -4,7 +4,32 @@
   import PhotosArea from './PhotosArea.svelte'
 
   export let profile = {
-      friends: [],
+      friends: [
+        {
+          name: "Gabriel Mirizzi",
+          avatar: ""
+        },
+        {
+          name: "Emanoel Rauken",
+          avatar: ""
+        },
+        {
+          name: "Calleb Antunes",
+          avatar: ""
+        },
+        {
+          name: "Eric Rainard",
+          avatar: ""
+        },
+        {
+          name: "Doryan Safado",
+          avatar: ""
+        },
+        {
+          name: "Nathaniel Otazzera",
+          avatar: ""
+        },
+      ],
       pictures: [],
       info: {
         bio: "Lorem ipsum dolor sit amet",
@@ -17,6 +42,8 @@
       },
       posts: []
     };
+
+    console.log(profile)
 </script>
 
 <div style="background-color: #18191a">
@@ -24,7 +51,7 @@
   <div>
     <InfoArea {...profile.info}/>
     <PhotosArea/>
-    <FriendsArea {...profile.friends}/>
+    <FriendsArea friends={profile.friends}/>
   </div>
   <div></div>
 </div>

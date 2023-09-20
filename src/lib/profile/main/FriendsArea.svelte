@@ -1,5 +1,5 @@
 <script>
-  export let friends;
+  export let friends = [];
 </script>
 
 <div class="friends-area-container">
@@ -7,7 +7,6 @@
   <span>Ver todos os amigos</span></div>
   <div class="friends-grid">
     {#each friends as friend}
-      <img/>
       <span>{friend.name}</span>
     {/each}
   </div>
@@ -32,7 +31,12 @@
     width: 100%;
   }
 
-  span {
+  .friends-area-container > span {
     color: #3f84d7;
+  }
+
+  .friends-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
   }
 </style>

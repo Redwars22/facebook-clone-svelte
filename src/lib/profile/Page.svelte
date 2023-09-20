@@ -9,32 +9,7 @@
     profileCoverURL: "https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/0/0921cb27d5604b464218a64ae88a3f43c7b7371a_2_690x345.png",
     profileURL: "https://github.com/Redwars22.png",
     profile: {
-      friends: [
-        {
-          name: "Gabriel Mirizzi",
-          avatar: ""
-        },
-        {
-          name: "Emanoel Rauken",
-          avatar: ""
-        },
-        {
-          name: "Calleb Antunes",
-          avatar: ""
-        },
-        {
-          name: "Eric Rainard",
-          avatar: ""
-        },
-        {
-          name: "Doryan Safado",
-          avatar: ""
-        },
-        {
-          name: "Nathaniel Otazzera",
-          avatar: ""
-        },
-      ],
+      friends: [],
       pictures: [],
       info: {
         bio: "Busque a sua felicidade hoje, amanha e sempre!"
