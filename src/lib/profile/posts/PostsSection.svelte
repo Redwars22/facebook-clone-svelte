@@ -1,7 +1,12 @@
 <div>
   <div class="header">
-    <div><h3>Fotos</h3>
-    <span>Ver todas as fotos</span></div>
+    <div>
+      <h3>Publicações</h3>
+      <button>
+        <i class="bi bi-sliders"></i>
+        Filtros
+      </button>
+    </div>
   </div>
 </div>
 
@@ -15,6 +20,18 @@
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     margin: 15px;
+  }
+
+  button {
+    height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    background-color: #3a3b3c;
   }
 
   .header > div {

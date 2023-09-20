@@ -61,7 +61,6 @@
 <style>
 .profile-main-page {
   background-color: #18191a;
-  height: 900px;
   display: grid;
   grid-template-columns: 40% 60%;
   width: 940px;
