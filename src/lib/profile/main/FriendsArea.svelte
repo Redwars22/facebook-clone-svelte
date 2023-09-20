@@ -1,9 +1,16 @@
 <script>
+  export let friends;
 </script>
 
 <div class="friends-area-container">
   <div><h3>Amigos</h3>
   <span>Ver todos os amigos</span></div>
+  <div class="friends-grid">
+    {#each friends as friend}
+      <img/>
+      <span>{friend.name}</span>
+    {/each}
+  </div>
 </div>
 
 <style>

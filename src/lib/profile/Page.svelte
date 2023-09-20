@@ -11,27 +11,27 @@
     profile: {
       friends: [
         {
-          name: "",
+          name: "Gabriel Mirizzi",
           avatar: ""
         },
         {
-          name: "",
+          name: "Emanoel Rauken",
           avatar: ""
         },
         {
-          name: "",
+          name: "Calleb Antunes",
           avatar: ""
         },
         {
-          name: "",
+          name: "Eric Rainard",
           avatar: ""
         },
         {
-          name: "",
+          name: "Doryan Safado",
           avatar: ""
         },
         {
-          name: "",
+          name: "Nathaniel Otazzera",
           avatar: ""
         },
       ],

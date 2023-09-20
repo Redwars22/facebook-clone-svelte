@@ -24,7 +24,7 @@
   <div>
     <InfoArea {...profile.info}/>
     <PhotosArea/>
-    <FriendsArea/>
+    <FriendsArea {...profile.friends}/>
   </div>
   <div></div>
 </div>
