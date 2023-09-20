@@ -2,7 +2,7 @@
   import InfoArea from './InfoArea.svelte'
   import FriendsArea from './FriendsArea.svelte'
   import PhotosArea from './PhotosArea.svelte'
-  import PostsSection from './posts/PostsSection.svelte'
+  import PostsSection from '../posts/PostsSection.svelte'
 
   export let profile = {
       friends: [
