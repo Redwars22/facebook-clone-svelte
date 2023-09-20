@@ -3,11 +3,16 @@
 </script>
 
 <div class="friends-area-container">
-  <div><h3>Amigos</h3>
-  <span>Ver todos os amigos</span></div>
+  <div class="header">
+    <h3>Amigos</h3>
+    <span>Ver todos os amigos</span>
+  </div>
   <div class="friends-grid">
     {#each friends as friend}
+    <div class="friend-container">
+      <img src={friend.avatar} alt={friend.name}/>
       <span>{friend.name}</span>
+    </div>
     {/each}
   </div>
 </div>
@@ -24,19 +29,31 @@
     margin: 15px;
   }
 
-  .friends-area-container > div {
+  .friend-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .friends-area-container > .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
   }
 
-  .friends-area-container > span {
+  .friends-area-container > div > span {
     color: #3f84d7;
   }
 
   .friends-grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .friend-container > img {
+    border-radius: 8px;
+    width: 101px;
+    height: 101px;
   }
 </style>
