@@ -2,6 +2,7 @@
   import InfoArea from './InfoArea.svelte'
   import FriendsArea from './FriendsArea.svelte'
   import PhotosArea from './PhotosArea.svelte'
+  import PostsSection from './posts/PostsSection.svelte'
 
   export let profile = {
       friends: [
@@ -36,7 +37,7 @@
         birthplace: "República do Biverso",
         location: "Regente do Sul",
         fiancee: "",
-        workplace: "",
+        workplace: "AndrewNation",
         member_since: "Setembro de 2023",
         relationship_status: "Em um relacionamento aberto"
       },
@@ -53,7 +54,7 @@
     <PhotosArea/>
     <FriendsArea friends={profile.friends}/>
   </div>
-  <div></div>
+  <PostsSection/>
 </div>
 </div>
 
