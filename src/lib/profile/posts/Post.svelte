@@ -60,6 +60,6 @@
 
   img {
     width: calc(100% + 20px);
-    magin-left: -10px;
+    margin-left: -10px;
   }
 </style>
