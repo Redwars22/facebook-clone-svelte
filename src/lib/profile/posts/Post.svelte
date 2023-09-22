@@ -21,6 +21,7 @@
     </div>
   </div>
   <div class="picture-and-legend">
+    <p>{legend}</p>
     <img src={picture}/>
   </div>
   <div></div>
@@ -29,8 +30,8 @@
 <style>
   .post-container {
     background-color: #242526;
-    border-radius: 5px;
-    margin: 0px 15px 0px 15px;
+    border-radius: 10px;
+    margin: 10px 15px 10px 15px;
     padding: 5px 10px 5px 10px;
     color: #e4e6eb;
   }
@@ -61,5 +62,14 @@
   img {
     width: calc(100% + 20px);
     margin-left: -10px;
+  }
+
+  .picture-and-legend {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .picture-and-legend > p {
+    text-align: left;
   }
 </style>
