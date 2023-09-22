@@ -1,7 +1,13 @@
 <script>
   import Post from './Post.svelte';
 
-  export let posts = [];
+  export let posts = [
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 11:04"
+        }
+      ];
 </script>
 
 <div>

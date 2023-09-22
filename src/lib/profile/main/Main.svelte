@@ -41,13 +41,6 @@
         member_since: "Setembro de 2023",
         relationship_status: "Em um relacionamento aberto"
       },
-      posts: [
-        {
-          useravatar: "https://github.com/Redwars22.png",
-          username: "Andrew Nation",
-          date: "22 de Setembro às 11:04"
-        }
-      ]
     };
 
     console.log(profile)
@@ -60,7 +53,7 @@
     <PhotosArea/>
     <FriendsArea friends={profile.friends}/>
   </div>
-  <PostsSection {...profile.posts}/>
+  <PostsSection/>
 </div>
 </div>
 
