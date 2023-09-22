@@ -1,6 +1,6 @@
 <script>
   import Post from './Post.svelte';
-  
+
   export let posts = [];
 </script>
 
@@ -16,7 +16,7 @@
   </div>
   <div>
     {#each posts as post}
-      <Post/>
+      <Post {...post}/>
     {/each}
   </div>
 </div>
