@@ -4,6 +4,8 @@
   export let useravatar;
   export let username;
   export let date;
+  export let picture;
+  export let legend;
 
   console.log({
     username, useravatar, date
@@ -11,12 +13,14 @@
 </script>
 
 <div class="post-container">
-  <div>
+  <div class="horizontal-flex">
     <ProfilePicture url={useravatar}/>
-    <span>{username}</span>
-    <span>{date}</span>
+    <div class="vertical-flex">
+      <span class="username">{username}</span>
+      <span class="date">{date} · <i class="bi bi-globe-americas"></i></span>
+    </div>
   </div>
-  <img/>
+  <img src={picture}/>
   <div></div>
 </div>
 
@@ -26,5 +30,34 @@
     border-radius: 5px;
     margin: 0px 15px 0px 15px;
     padding: 5px 10px 5px 10px;
+    color: #e4e6eb;
+  }
+
+  .username {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .date {
+    font-size: 13px;
+    color: #a1a3a8;
+  }
+
+  .vertical-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    gap: 5px;
+  }
+
+  .horizontal-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: calc(100% + 20px);
+    magin-left: -10px;
   }
 </style>

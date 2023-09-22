@@ -5,7 +5,9 @@
         {
           useravatar: "https://github.com/Redwars22.png",
           username: "Andrew Nation",
-          date: "22 de Setembro às 11:04"
+          date: "22 de Setembro às 11:04",
+          legend: "",
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg"
         }
       ];
 </script>
