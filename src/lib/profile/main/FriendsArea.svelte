@@ -37,6 +37,11 @@
     font-size: 13px;
   }
 
+  .friend-container > span {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
   .friends-area-container > .header {
     display: flex;
     justify-content: space-between;
@@ -46,14 +51,15 @@
 
   .friends-area-container > div > span {
     color: #3f84d7;
-    margin-top: 5px;
   }
 
   .friends-grid {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(2, auto);
-    gap: 10px;
+    gap: 13px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .friend-container > img {
