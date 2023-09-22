@@ -1,3 +1,9 @@
+<script>
+  import Post from './Post.svelte';
+  
+  export let posts = [];
+</script>
+
 <div>
   <div class="header">
     <div>
@@ -7,6 +13,11 @@
         Filtros
       </button>
     </div>
+  </div>
+  <div>
+    {#each posts as post}
+      <Post/>
+    {/each}
   </div>
 </div>
 
