@@ -32,6 +32,9 @@
   .friend-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 13px;
   }
 
   .friends-area-container > .header {
@@ -43,12 +46,14 @@
 
   .friends-area-container > div > span {
     color: #3f84d7;
+    margin-top: 5px;
   }
 
   .friends-grid {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(2, auto);
+    gap: 10px;
   }
 
   .friend-container > img {
