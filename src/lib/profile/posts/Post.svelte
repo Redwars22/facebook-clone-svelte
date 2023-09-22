@@ -20,7 +20,9 @@
       <span class="date">{date} · <i class="bi bi-globe-americas"></i></span>
     </div>
   </div>
-  <img src={picture}/>
+  <div class="picture-and-legend">
+    <img src={picture}/>
+  </div>
   <div></div>
 </div>
 
