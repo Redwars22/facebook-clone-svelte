@@ -7,7 +7,9 @@
           username: "Andrew Nation",
           date: "22 de Setembro às 11:04",
           legend: "Ammulannu coe miliore amice nto parcu e l'ammusamientu 🎡🥳🎉🪅😃 Aju bisognu e ammittere c'aju paore, assé paore, ma accussì me ce vadu.",
-          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg"
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
+          likes: 125,
+          shares: 12
         }
       ];
 </script>

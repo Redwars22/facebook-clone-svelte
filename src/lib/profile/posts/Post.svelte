@@ -6,6 +6,8 @@
   export let date;
   export let picture;
   export let legend;
+  export let likes;
+  export let shares;
 
   console.log({
     username, useravatar, date
@@ -19,11 +21,26 @@
       <span class="username">{username}</span>
       <span class="date">{date} · <i class="bi bi-globe-americas"></i></span>
     </div>
+    <button class="more">
+      <i class="bi bi-three-dots"></i>
+    </button>
   </div>
   <div class="picture-and-legend">
     <p>{legend}</p>
     <img src={picture}/>
   </div>
+  <div class="space-between">
+    <div>
+      <i class="bi bi-hand-thumbs-up-fill"></i>
+      <i class="bi bi-heart-fill"></i>
+      <span>{likes}</span>
+    </div>
+    <div>
+      <i class="bi bi-send-arrow-up-fill"></i>
+      <span>{shares}</span>
+    </div>
+  </div>
+  <div></div>
   <div></div>
 </div>
 
@@ -39,6 +56,28 @@
   .username {
     font-weight: 700;
     font-size: 15px;
+  }
+
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px 5px 15px;
+    border-bottom: 1px solid #242526;
+  }
+
+  .more {
+    border-radius: 100%;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: #242526;
+    margin-left: auto;
+    border: none;
+  }
+
+  .more:hover {
+    background-color: #3a3b3c;
+    cursor: pointer;
   }
 
   .date {
