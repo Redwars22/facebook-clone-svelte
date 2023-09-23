@@ -50,7 +50,7 @@
       <span>Comentar</span>
     </button>
     <button class="post-action-buttons">
-      <i class="bi bi-send-arrow-up-fill"></i>
+      <i class="bi bi-send-arrow-up"></i>
       <span>Compartilhar</span>
     </button>
   </div>
@@ -77,7 +77,7 @@
 
   .action-buttons {
     margin-top: 8px;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
   }
 
   .space-between {
@@ -142,6 +142,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: 161px;
+    height: 44px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
