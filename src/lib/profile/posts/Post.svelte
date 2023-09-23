@@ -40,7 +40,20 @@
       <i class="bi bi-send-arrow-up-fill"></i>
     </div>
   </div>
-  <div></div>
+  <div>
+    <button class="post-action-buttons">
+    <i class="bi bi-hand-thumbs-up"></i>
+      <span>Curtir</span>
+    </button>
+    <button class="post-action-buttons">
+      <i class="bi bi-chat"></i>
+      <span>Comentar</span>
+    </button>
+    <button class="post-action-buttons">
+      <i class="bi bi-send-arrow-up-fill"></i>
+      <span>Compartilhar</span>
+    </button>
+  </div>
   <div></div>
 </div>
 
