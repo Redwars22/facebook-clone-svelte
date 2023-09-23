@@ -40,7 +40,7 @@
       <i class="bi bi-send-arrow-up-fill"></i>
     </div>
   </div>
-  <div>
+  <div class="action-buttons">
     <button class="post-action-buttons">
     <i class="bi bi-hand-thumbs-up"></i>
       <span>Curtir</span>
@@ -71,12 +71,20 @@
     font-size: 15px;
   }
 
+  .space-between, .action-buttons {
+    border-bottom: 1px solid #3a3b3c;
+  }
+
+  .action-buttons {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
   .space-between {
     display: flex;
     justify-content: space-between;
     margin: 5px 15px 5px 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #3a3b3c;
   }
 
   .more {
@@ -134,6 +142,9 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: 161px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
   }
 
   .post-action-buttons:hover {
