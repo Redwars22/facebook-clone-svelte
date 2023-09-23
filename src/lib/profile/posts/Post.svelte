@@ -125,4 +125,18 @@
   .picture-and-legend > p {
     text-align: left;
   }
+
+  .post-action-buttons {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1rem;
+    color: #b0b3b8;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 161px;
+  }
+
+  .post-action-buttons:hover {
+    background-color: #3a3b3c;
+  }
 </style>
