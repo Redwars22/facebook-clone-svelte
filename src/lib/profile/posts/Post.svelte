@@ -36,8 +36,8 @@
       <span>{likes}</span>
     </div>
     <div>
-      <i class="bi bi-send-arrow-up-fill"></i>
       <span>{shares}</span>
+      <i class="bi bi-send-arrow-up-fill"></i>
     </div>
   </div>
   <div></div>
@@ -62,7 +62,8 @@
     display: flex;
     justify-content: space-between;
     margin: 5px 15px 5px 15px;
-    border-bottom: 1px solid #242526;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3a3b3c;
   }
 
   .more {
