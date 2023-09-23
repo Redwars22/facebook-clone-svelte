@@ -4,4 +4,9 @@
 
 <>
   <ProfilePicture/>
+  <div>
+    <input>
+    <div>
+    </div>
+  </div>
 <>
