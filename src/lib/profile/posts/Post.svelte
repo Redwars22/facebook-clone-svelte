@@ -1,5 +1,6 @@
 <script>
   import ProfilePicture from '../../header/ProfilePicture.svelte';
+  import Comment from '../main/Comment.svelte';
 
   export let useravatar;
   export let username;
@@ -54,7 +55,9 @@
       <span>Compartilhar</span>
     </button>
   </div>
-  <div></div>
+  <div>
+    <Comment/>
+  </div>
 </div>
 
 <style>
