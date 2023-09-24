@@ -29,7 +29,7 @@
   }
 
   input {
-    width: fill-parent;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #b0b3b8;
