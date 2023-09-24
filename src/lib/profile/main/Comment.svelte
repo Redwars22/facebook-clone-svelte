@@ -25,6 +25,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 8px;
+    margin: 8px 8px 8px 8px;
   }
 
   input {
@@ -32,7 +33,8 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #b0b3b8;
-  }
+    font-size: 0.9375rem;
+}
 
   i {
     color: #9da1a4;
