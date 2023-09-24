@@ -4,7 +4,7 @@
 
 <div class="comment-area">
   <ProfilePicture url="https://github.com/Redwars22.png"/>
-  <div>
+  <div class="input-and-buttons-area">
     <input>
     <div>
       <i class="bi bi-person-video3"></i>
@@ -17,7 +17,12 @@
 </div>
 
 <style>
-  .comment-area {
+  .input-and-buttons-area {
+    width: 100%;
+  }
+
+  .comment-area, .input-and-buttons-area {
     display: flex;
+    align-items: center;
   }
 </style>
