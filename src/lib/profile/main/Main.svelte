@@ -34,7 +34,7 @@
       ],
       pictures: [],
       info: {
-        bio: "Lorem ipsum dolor sit amet",
+        bio: "Escolhe um trabalho de que gostes e não terás que trabalhar nem um dia na tua vida",
         birthplace: "República do Biverso",
         location: "Regente do Sul",
         fiancee: "",
