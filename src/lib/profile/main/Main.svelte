@@ -3,6 +3,7 @@
   import FriendsArea from './FriendsArea.svelte'
   import PhotosArea from './PhotosArea.svelte'
   import PostsSection from '../posts/PostsSection.svelte'
+  import Footer from './Footer.svelte';
 
   export let profile = {
       friends: [
@@ -52,6 +53,7 @@
     <InfoArea {...profile.info}/>
     <PhotosArea/>
     <FriendsArea friends={profile.friends}/>
+    <Footer/>
   </div>
   <PostsSection/>
 </div>
