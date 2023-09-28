@@ -67,4 +67,8 @@
     width: 101px;
     height: 101px;
   }
+
+  .friend-container > img:hover {
+    filter: brightness(115%);
+  }
 </style>
