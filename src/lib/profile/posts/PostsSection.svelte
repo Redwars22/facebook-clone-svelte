@@ -10,6 +10,51 @@
           picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
           likes: 125,
           shares: 12
+        },
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 11:04",
+          legend: "Ammulannu coe miliore amice nto parcu e l'ammusamientu 🎡🥳🎉🪅😃 Aju bisognu e ammittere c'aju paore, assé paore, ma accussì me ce vadu.",
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
+          likes: 125,
+          shares: 12
+        },
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 11:04",
+          legend: "Ammulannu coe miliore amice nto parcu e l'ammusamientu 🎡🥳🎉🪅😃 Aju bisognu e ammittere c'aju paore, assé paore, ma accussì me ce vadu.",
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
+          likes: 125,
+          shares: 12
+        },
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 11:04",
+          legend: "Ammulannu coe miliore amice nto parcu e l'ammusamientu 🎡🥳🎉🪅😃 Aju bisognu e ammittere c'aju paore, assé paore, ma accussì me ce vadu.",
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
+          likes: 125,
+          shares: 12
+        },
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 19:04",
+          legend: "A ferramienta chiù mpurtante e usata n Windows sarrà morta da Microsoft brevemente! 🥹",
+          picture: "https://th.bing.com/th/id/R.080c1599c40d1832bb1a77b8c579fa95?rik=z8yrN4Pk2DmTtw&pid=ImgRaw&r=0",
+          likes: 415,
+          shares: 77
+        },
+        {
+          useravatar: "https://github.com/Redwars22.png",
+          username: "Andrew Nation",
+          date: "22 de Setembro às 11:04",
+          legend: "Ammulannu coe miliore amice nto parcu e l'ammusamientu 🎡🥳🎉🪅😃 Aju bisognu e ammittere c'aju paore, assé paore, ma accussì me ce vadu.",
+          picture: "https://funspotamericaatlanta.com/wp-content/uploads/2018/06/Ferris-Wheel-5.jpg",
+          likes: 125,
+          shares: 12
         }
       ];
 </script>
