@@ -32,8 +32,8 @@
   </div>
   <div class="space-between">
     <div>
-      <i class="bi bi-hand-thumbs-up-fill"></i>
-      <i class="bi bi-heart-fill"></i>
+      <i class="bi bi-hand-thumbs-up-fill blue-icon"></i>
+      <i class="bi bi-heart-fill red-icon"></i>
       <span>{likes}</span>
     </div>
     <div>
@@ -153,5 +153,21 @@
 
   .post-action-buttons:hover {
     background-color: #3a3b3c;
+  }
+
+  .blue-icon, .red-icon {
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .blue-icon {
+    background-color: #14a4fa;
+    z-index: 999999;
+  }
+
+  .red-icon {
+    background-color: #ef3856;
+    margin-left: -8px;
   }
 </style>
